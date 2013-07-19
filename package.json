@@ -1,5 +1,5 @@
 {
-  "name": "t2s",
+  "name": "haki-text2speech",
   "version": "0.0.0",
   "dependencies": {
     "say": "~0.5.0"
