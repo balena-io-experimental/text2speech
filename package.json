@@ -1,10 +1,7 @@
 {
   "name": "haki-text2speech",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
     "say": "~0.5.0"
-  },
-  "devDependencies": {
-    "coffee-script": "~1.6.3"
   }
 }
