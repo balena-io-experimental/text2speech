@@ -1,2 +1,2 @@
 apt-get update
-apt-get install festival
+apt-get install -y festival
