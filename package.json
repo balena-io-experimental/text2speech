@@ -1,6 +1,6 @@
 {
   "name": "haki-text2speech",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "say": "~0.5.0"
   },
