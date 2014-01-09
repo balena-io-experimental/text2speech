@@ -4,7 +4,9 @@
   "dependencies": {
     "say": "~0.5.0"
   },
-  "preinstall": "bash deps.sh",
+  "scripts":{
+      "preinstall": "bash deps.sh"
+  },
   "engines": {
       "node": "0.10.22"
   }
