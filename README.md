@@ -16,8 +16,8 @@ have to add the resin remote to your local git repo in order to `git push resin 
 To do that, copy the remote and issue the following command in the folder containing this
 repo:
 
-```shell
-git remote add resin git@git.resin.io:petrosagg/test.git"
+```bash
+git remote add resin git@git.resin.io:petrosagg/test.git
 ```
 
 You should be able to `git push resin master` to your devices!
