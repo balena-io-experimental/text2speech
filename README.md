@@ -2,9 +2,9 @@
 
 ## How it works
 
-This demo uses Google's TTS endpoint to get an MP3 audio stream of the supplied text.
+This demo uses Google's Text-To-Speech endpoint to get an MP3 audio stream of the supplied text.
 Then it uses the `node-lame` module to decode the MP3 stream to raw audio and finally
-passes the raw audio stream to `node-speaker` which will play it using the RaspberryPi's
+passes the raw audio stream to `node-speaker` which plays it using the RaspberryPi's
 soundcard.
 
 ## How to use
