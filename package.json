@@ -2,10 +2,9 @@
   "name": "haki-text2speech",
   "version": "0.0.3",
   "dependencies": {
-    "say": "~0.5.0"
-  },
-  "scripts":{
-      "preinstall": "bash deps.sh"
+    "speaker": "~0.0.10",
+    "request": "~2.22.0",
+    "lame": "~1.0.2"
   },
   "engines": {
       "node": "0.10.22"
