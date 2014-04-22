@@ -1,6 +1,6 @@
 {
   "name": "resin-text2speech",
-  "description": "Simple resin app that uses Google's TTS endpoint"
+  "description": "Simple resin app that uses Google's TTS endpoint",
   "repository": {
     "type": "git",
     "url": "https://petrosagg@bitbucket.org/rulemotion/resin-text2speech.git"
