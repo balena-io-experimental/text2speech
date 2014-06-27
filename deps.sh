@@ -1,1 +1,2 @@
-apt-get install -y libasound2-dev
+apt-get install -y alsa-utils libasound2-dev
+mv sound_start /usr/bin/sound_start

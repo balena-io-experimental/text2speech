@@ -1,0 +1,3 @@
+#!/bin/bash
+amixer cset numid=3 1
+amixer -c 3 set PCM 1dB+
