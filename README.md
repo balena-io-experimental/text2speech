@@ -17,7 +17,7 @@ To do that, copy the remote and issue the following command in the folder contai
 repo:
 
 ```bash
-git remote add resin git@git.resin.io:petrosagg/test.git
+git remote add resin git@git.resin.io:username/test.git
 ```
 
 You should be able to `git push resin master` to your devices!

@@ -3,7 +3,7 @@
   "description": "Simple resin app that uses Google's TTS endpoint",
   "repository": {
     "type": "git",
-    "url": "https://petrosagg@bitbucket.org/rulemotion/resin-text2speech.git"
+    "url": "https://github.com/resin-io/text2speech.git"
   },
   "scripts": {
     "preinstall": "bash deps.sh"
