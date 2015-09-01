@@ -1,4 +1,3 @@
-# Use base image for device arch with node installed
 FROM resin/%%RESIN_ARCH%%-node:0.10.38
 
 # create src dir
