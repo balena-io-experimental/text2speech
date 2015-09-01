@@ -1,5 +1,7 @@
 # Resin.io -- Simple text-to-speech demo
 
+### NOTE this is a forked version of [original text2speech](https://github.com/resin-io/text2speech). This fork uses Dockerfile.template instead of resin.io's auto generated dockerfile for caching purposes. 
+
 ## How it works
 
 This demo uses Google's Text-To-Speech endpoint to get an MP3 audio stream of the supplied text.
