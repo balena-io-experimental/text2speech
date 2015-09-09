@@ -22,7 +22,7 @@ git remote add resin git@git.resin.io:username/test.git
 
 You should be able to `git push resin master` to your devices!
 
-You can change the text by setting a `TEXT` environment variable for you app/device.
+You can change the text by setting a `TEXT` environment variable for your app/device in the Resin dashboard.
 
 
 **Note**: If you used an already existing application that you've previously pushed other code
