@@ -2,7 +2,7 @@ var request = require('request');
 var Lame = require('lame');
 var Speaker = require('speaker');
 
-var text = 'Say hello to my little friend';
+var text = process.env.TEXT || 'Say hello to my little friend';
 
 var url = {
 	url: 'http://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=t&q=' + encodeURIComponent(text),
