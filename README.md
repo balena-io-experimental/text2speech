@@ -1,5 +1,7 @@
 # Resin.io -- Simple text-to-speech demo
 
+__FORKED VERSION__ - works around deps.sh being run *after* dependencies are installed on newer npm.
+
 ## How it works
 
 This demo uses Google's Text-To-Speech endpoint to get an MP3 audio stream of the supplied text.
