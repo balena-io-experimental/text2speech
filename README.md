@@ -1,13 +1,9 @@
 # Resin.io -- Simple text-to-speech demo
 
-__FORKED VERSION__ - works around deps.sh being run *after* dependencies are installed on newer npm.
 
 ## How it works
 
-This demo uses Google's Text-To-Speech endpoint to get an MP3 audio stream of the supplied text.
-Then it uses the `node-lame` module to decode the MP3 stream to raw audio and finally
-passes the raw audio stream to `node-speaker` which plays it using the RaspberryPi's
-soundcard.
+This demo uses [say.js](https://github.com/marak/say.js/) which relies on [Festival](http://www.cstr.ed.ac.uk/projects/festival/) to play an audio stream of the supplied text.
 
 ## How to use
 
