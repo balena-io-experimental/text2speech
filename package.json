@@ -6,13 +6,14 @@
     "url": "https://github.com/resin-io/text2speech.git"
   },
   "scripts": {
-    "preinstall": "bash deps.sh"
+    "preinstall": "",
+    "start": "server.js"
   },
   "version": "0.0.4",
   "dependencies": {
-    "say" : "^0.6.0"
+    "say": "^0.6.0"
   },
   "engines": {
-    "node": "0.10.22"
+    "node": "4.2"
   }
 }
