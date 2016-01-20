@@ -1,5 +1,5 @@
 # Select a Base image from https://hub.docker.com/r/resin/raspberrypi2-node/tags/
-FROM resin/raspberrypi2-node:4.2-20160114
+FROM resin/%%RESIN_MACHINE_NAME%%-node:4.2
 
 # Install your app dependencies here
 RUN apt-get update && apt-get install -yq \
