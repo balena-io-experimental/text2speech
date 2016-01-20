@@ -11,14 +11,16 @@ RUN apt-get update && apt-get install -yq \
 
 ENV INITSYSTEM on
 
+# Create some where to store our saucy code
+RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # Build your node.js dependencies with npm
-COPY package.json .
+COPY package.json ./
 RUN DEBIAN_FRONTEND=noninteractive JOBS=MAX npm install --unsafe-perm
 
 # put all your source into the working directory (i.e. /usr/src/app)
-COPY . .
+COPY . ./
 
 # Run this command when the container starts on the device.
 CMD ["node", "server.js"]
