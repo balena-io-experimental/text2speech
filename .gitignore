@@ -6,3 +6,6 @@
 
 # Folders
 node_modules
+
+#stupid OSX trash
+.DS_Store
