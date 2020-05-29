@@ -1,6 +1,5 @@
 # Resin.io -- Simple text-to-speech demo
 
-
 ## How it works
 
 This demo uses [say.js](https://github.com/marak/say.js/) which relies on [Festival](http://www.cstr.ed.ac.uk/projects/festival/) to play an audio stream of the supplied text.
