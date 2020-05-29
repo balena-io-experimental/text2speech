@@ -1,6 +1,6 @@
 {
   "name": "resin-text2speech",
-  "description": "Simple resin app that uses Google's TTS endpoint",
+  "description": "Simple resin app that uses Festival to do text 2 speech",
   "repository": {
     "type": "git",
     "url": "https://github.com/resin-io/text2speech.git"
@@ -8,13 +8,11 @@
   "scripts": {
     "preinstall": "bash deps.sh"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "dependencies": {
-    "speaker": "~0.2.4",
-    "request": "^2.55.0",
-    "lame": "^1.0.2"
+    "say" : "^0.6.0"
   },
   "engines": {
-      "node": "0.10.22"
+    "node": "0.10.22"
   }
 }
